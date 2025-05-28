@@ -1,0 +1,1 @@
+https://api.mxlsky.me/sub?target=clash&url=https%3A%2F%2Fgit.0000002.best%2Fhttps%3A%2F%2Fgithub.com%2Froosterkid%2Fopenproxylist%2Fblob%2Fmain%2FV2RAY_BASE64.txt&config=https%3A%2F%2Fraw.githubusercontent.com%2FMxlCN%2FClash%2Fmain%2FClash_Full
