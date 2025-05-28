@@ -1,0 +1,18 @@
+  # Government (gov.mm) Domains
+  - DOMAIN-SUFFIX,gov.mm,DIRECT
+
+  # Banks
+  - DOMAIN-SUFFIX,ayabank.com,DIRECT
+  - DOMAIN-SUFFIX,kbzbank.com,DIRECT
+  - DDOMAIN-SUFFIX,cbbank.com.mm,DIRECT
+  - DOMAIN-SUFFIX,agdbank.com,DIRECT
+  - DOMAIN-SUFFIX,mabbank.com,DIRECT
+  - DOMAIN-SUFFIX,yomabank.com,DIRECT
+  - DOMAIN-SUFFIX,wavemoney.com.mm,DIRECT  
+  - DOMAIN-SUFFIX,truemoney.com.mm,DIRECT
+
+  # Telecom Operators
+  - DOMAIN-SUFFIX,mpt.com.mm,DIRECT
+  - DOMAIN-SUFFIX,telenor.com.mm,DIRECT
+  - DOMAIN-SUFFIX,ooredoo.com.mm,DIRECT
+  - DOMAIN-SUFFIX,mytel.com.mm,DIRECT
