@@ -42,3 +42,9 @@ DOMAIN-KEYWORD,openai
 
 #gemini pro
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
+
+#ffa.chat
+DOMAIN-SUFFIX,ffa.chat
+
+#deepseek
+DOMAIN-SUFFIX,chat.deepseek.com
