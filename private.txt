@@ -1,4 +1,5 @@
-  # Government (gov.mm) Domains
+payload:
+# Government (gov.mm) Domains
   - DOMAIN-SUFFIX,gov.mm,DIRECT
 
   # Banks
