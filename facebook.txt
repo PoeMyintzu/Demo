@@ -1,5 +1,7 @@
 payload:
   # Facebook Core
+  - DOMAIN-KEYWORD,facebook,PROXY
+  - DOMAIN-KEYWORD,fb,PROXY
   - DOMAIN-SUFFIX,facebook.com,PROXY
   - DOMAIN-SUFFIX,fbcdn.net,PROXY
   - DOMAIN-SUFFIX,fb.com,PROXY
