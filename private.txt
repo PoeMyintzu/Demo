@@ -1,5 +1,6 @@
 # Government (gov.mm) Domains
   - DOMAIN-SUFFIX,gov.mm,DIRECT
+  - DOMAIN-SUFFIX,com.mm,DIRECT
 
   # Banks
   - DOMAIN-SUFFIX,ayabank.com,DIRECT
