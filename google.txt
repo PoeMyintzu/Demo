@@ -1,4 +1,6 @@
 payload:
+rules:
+  # Google Core Services
   - DOMAIN-SUFFIX,google.com,DIRECT
   - DOMAIN-SUFFIX,google.net,DIRECT
   - DOMAIN-SUFFIX,google.org,DIRECT
@@ -14,5 +16,12 @@ payload:
   - DOMAIN-SUFFIX,googlemail.com,DIRECT
   - DOMAIN-SUFFIX,googleadservices.com,DIRECT
   - DOMAIN-SUFFIX,googleplex.com,DIRECT
-  - DOMAIN-SUFFIX,goog,DIRECT  
-  - DOMAIN-KEYWORD,google,DIRECT  
+  - DOMAIN-SUFFIX,goog,DIRECT
+  
+  # Google AI Services
+  - DOMAIN-SUFFIX,gemini.google.com,DIRECT
+  - DOMAIN-SUFFIX,ai.google.dev,DIRECT
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com,DIRECT
+  - DOMAIN-SUFFIX,vertexai.google.com,DIRECT
+  - DOMAIN-SUFFIX,aihub.google.com,DIRECT
+  - DOMAIN-SUFFIX,deepmind.google,DIRECT
