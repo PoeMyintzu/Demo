@@ -1,14 +1,14 @@
 payload:
   # DeepSeek
-  - DOMAIN-SUFFIX,chat.deepseek.com,DIRECT
-  - DOMAIN-SUFFIX,deepseek.com,DIRECT
-  - DOMAIN-SUFFIX,api.deepseek.com,DIRECT
+  - DOMAIN-SUFFIX,chat.deepseek.com,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,deepseek.com,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,api.deepseek.com,DIRECT,no-resolve
   
   # OpenAI
-  - DOMAIN-SUFFIX,openai.com,DIRECT
-  - DOMAIN-SUFFIX,chat.openai.com,DIRECT
-  - DOMAIN-SUFFIX,platform.openai.com,DIRECT
-  - DOMAIN-SUFFIX,api.openai.com,DIRECT
+  - DOMAIN-SUFFIX,openai.com,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,chat.openai.com,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,platform.openai.com,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,api.openai.com,DIRECT,no-resolve
   
   # Claude
   - DOMAIN-SUFFIX,claude.ai,DIRECT
@@ -20,7 +20,7 @@ payload:
   - DOMAIN-SUFFIX,workers.ai,DIRECT
   
   # FFA.chat
-  - DOMAIN-SUFFIX,ffa.chat,DIRECT
+  - DOMAIN-SUFFIX,ffa.chat,DIRECT,no-resolve
   
   # Perplexity AI
   - DOMAIN-SUFFIX,perplexity.ai,DIRECT
