@@ -1,0 +1,27 @@
+payload:
+- PROCESS-NAME,network.kalock.myanmar2d,DIRECT
+- PROCESS-NAME,com.kbzbank.kpaycustomer,DIRECT
+- PROCESS-NAME,com.ayaplus.subscriber,DIRECT
+- PROCESS-NAME,org.telegram.messenger,DIRECT
+- PROCESS-NAME,com.tencent.mm,DIRECT
+- PROCESS-NAME,com.openai.chatgpt,DIRECT
+- PROCESS-NAME,com.google.android.youtube,DIRECT
+- PROCESS-NAME,com.google.android.apps.maps,DIRECT
+- PROCESS-NAME,com.google.android.apps.docs,DIRECT
+- PROCESS-NAME,com.ooredoo.selfcare,DIRECT
+- PROCESS-NAME,network.kalock.myanmar2d,DIRECT
+- PROCESS-NAME,com.mytel.myid,DIRECT
+- PROCESS-NAME,mm.com.mptvas,DIRECT
+- PROCESS-NAME,com.ofss.digx.mab,DIRECT
+- PROCESS-NAME,mm.com.wavemoney.wavepay,DIRECT
+- PROCESS-NAME,com.ascend.money.rewards.app.mm,DIRECT
+- PROCESS-NAME,com.com.jits.mbanking.aya,DIRECT
+- PROCESS-NAME,mm.com.atom.store,DIRECT
+- PROCESS-NAME,com.deepseek.chat,DIRECT
+- PROCESS-NAME,us.zoom.videomeetings,DIRECT
+- PROCESS-NAME,IDMan.exe,DIRECT
+- PROCESS-NAME,qbittorrent.exe,DIRECT
+- PROCESS-NAME,com.whatapps,PROXY
+- PROCESS-NAME,com.jits.mbanking.aya,PROXY
+- PROCESS-NAME,com.facebook.orca,PROXY
+- PROCESS-NAME,com.facebook.katana,PROXY
