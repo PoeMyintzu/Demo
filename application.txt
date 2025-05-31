@@ -18,9 +18,5 @@ PROCESS-NAME,com.com.jits.mbanking.aya,DIRECT
 PROCESS-NAME,mm.com.atom.store,DIRECT
 PROCESS-NAME,com.deepseek.chat,DIRECT
 PROCESS-NAME,us.zoom.videomeetings,DIRECT
-PROCESS-NAME,IDMan.exe,DIRECT
 PROCESS-NAME,qbittorrent.exe,DIRECT
-PROCESS-NAME,com.whatapps,☁️ Proxy
-PROCESS-NAME,com.jits.mbanking.aya,☁️ Proxy
-PROCESS-NAME,com.facebook.orca,☁️ Proxy
-PROCESS-NAME,com.facebook.katana,☁️ Proxy
+
