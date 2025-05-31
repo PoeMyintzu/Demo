@@ -1,31 +1,30 @@
-payload:
-  # DeepSeek
-  - DOMAIN-SUFFIX,chat.deepseek.com,DIRECT,no-resolve
-  - DOMAIN-SUFFIX,deepseek.com,DIRECT,no-resolve
-  - DOMAIN-SUFFIX,api.deepseek.com,DIRECT,no-resolve
+# DeepSeek
+DOMAIN-SUFFIX,chat.deepseek.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,deepseek.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,api.deepseek.com,DIRECT,no-resolve
   
-  # OpenAI
-  - DOMAIN-SUFFIX,openai.com,DIRECT,no-resolve
-  - DOMAIN-SUFFIX,chat.openai.com,DIRECT,no-resolve
-  - DOMAIN-SUFFIX,platform.openai.com,DIRECT,no-resolve
-  - DOMAIN-SUFFIX,api.openai.com,DIRECT,no-resolve
+# OpenAI
+DOMAIN-SUFFIX,openai.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,chat.openai.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,platform.openai.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,api.openai.com,DIRECT,no-resolve
   
-  # Claude
-  - DOMAIN-SUFFIX,claude.ai,DIRECT
-  - DOMAIN-SUFFIX,anthropic.com,DIRECT
-  - DOMAIN-SUFFIX,console.anthropic.com,DIRECT
+# Claude
+DOMAIN-SUFFIX,claude.ai,DIRECT
+DOMAIN-SUFFIX,anthropic.com,DIRECT
+DOMAIN-SUFFIX,console.anthropic.com,DIRECT
   
-  # Cloudflare AI
-  - DOMAIN-SUFFIX,ai.cloudflare.com,DIRECT
-  - DOMAIN-SUFFIX,workers.ai,DIRECT
+# Cloudflare AI
+DOMAIN-SUFFIX,ai.cloudflare.com,DIRECT
+DOMAIN-SUFFIX,workers.ai,DIRECT
   
-  # FFA.chat
-  - DOMAIN-SUFFIX,ffa.chat,DIRECT,no-resolve
+# FFA.chat
+DOMAIN-SUFFIX,ffa.chat,DIRECT,no-resolve
   
-  # Perplexity AI
-  - DOMAIN-SUFFIX,perplexity.ai,DIRECT
+# Perplexity AI
+DOMAIN-SUFFIX,perplexity.ai,DIRECT
   
-  # General AI Keywords
-  - DOMAIN-KEYWORD,ai,DIRECT,no-resolve
-  - DOMAIN-KEYWORD,gpt,DIRECT,no-resolve
-  - DOMAIN-KEYWORD,deepseek,DIRECT,no-resolve
+# General AI Keywords
+DOMAIN-KEYWORD,ai,DIRECT,no-resolve
+DOMAIN-KEYWORD,gpt,DIRECT,no-resolve
+DOMAIN-KEYWORD,deepseek,DIRECT,no-resolve
