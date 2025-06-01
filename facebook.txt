@@ -14,3 +14,4 @@ DOMAIN-SUFFIX,messenger.com
 DOMAIN-SUFFIX,xx.fbcdn.net
 DOMAIN-SUFFIX,xy.fbcdn.net
 DOMAIN-SUFFIX,fzxx.net
+PROCESS-NAME,com.gluak.f24
