@@ -1,4 +1,5 @@
 # Government (gov.mm) Domains
+DOMAIN,idope.se
 DOMAIN-SUFFIX,gov.mm
 DOMAIN-SUFFIX,com.mm
 DOMAIN-SUFFIX,org.mm
