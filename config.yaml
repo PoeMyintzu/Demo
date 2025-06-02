@@ -13,6 +13,7 @@ proxy-groups:
       - 🔮 Load Balance
       - ⚡ Fastest
       - ✏️ Manual
+      - DIRECT
       
   - name: ✏️ Manual
     type: select
@@ -33,6 +34,7 @@ proxy-groups:
     proxies: {{}}
     
 rules:
+  - DOMAIN,idope.se,DIRECT
   - DOMAIN-KEYWORD,facebook,☁️ Proxy
   - DOMAIN-KEYWORD,fb,☁️ Proxy
   - DOMAIN-SUFFIX,facebook.com,☁️ Proxy
