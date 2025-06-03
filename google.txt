@@ -15,7 +15,7 @@ DOMAIN-SUFFIX,googlemail.com
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googleplex.com
 DOMAIN-SUFFIX,goog
-DOMAIN-SUFFIX,Google.com.mm
+DOMAIN-SUFFIX,google.com.mm
 # Google AI Services
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,ai.google.dev
