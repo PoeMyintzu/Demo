@@ -18,3 +18,7 @@ PROCESS-NAME,mm.com.atom.store
 PROCESS-NAME,com.deepseek.chat
 PROCESS-NAME,us.zoom.videomeetings
 PROCESS-NAME,qbittorrent.exe
+PROCESS-NAME,com.ezviz
+PROCESS-NAME,com.mytel.viettech.abl.eu.v2.android
+PROCESS-NAME,com.mm.android.smartlifeiot
+
