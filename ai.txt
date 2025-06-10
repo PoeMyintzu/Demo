@@ -28,3 +28,7 @@ DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-KEYWORD,ai
 DOMAIN-KEYWORD,gpt
 DOMAIN-KEYWORD,deepseek
+
+#QWEN-ai
+DOMAIN-SUFFIX,qwen.ai
+DOMAIN-SUFFIX,chat.qwen.ai
