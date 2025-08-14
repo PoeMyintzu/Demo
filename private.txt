@@ -1,6 +1,3 @@
-  # Myanmar IP
-  - GEOIP,MM,DIRECT,no-resolve
-
   # Myanmar domains
   - DOMAIN-SUFFIX,gov.mm,DIRECT
   - DOMAIN-SUFFIX,com.mm,DIRECT
