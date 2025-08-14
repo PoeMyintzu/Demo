@@ -1,4 +1,5 @@
   # Myanmar domains
+  - DOMAIN-SUFFIX,google.com,DIRECT
   - DOMAIN-SUFFIX,gov.mm,DIRECT
   - DOMAIN-SUFFIX,com.mm,DIRECT
   - DOMAIN-SUFFIX,org.mm,DIRECT
