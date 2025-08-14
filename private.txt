@@ -1,14 +1,3 @@
-rules:
-  # Facebook Related (Proxy)
-  - DOMAIN-KEYWORD,facebook,☁️ Proxy
-  - DOMAIN-KEYWORD,fb,☁️ Proxy
-  - DOMAIN-SUFFIX,facebook.com,☁️ Proxy
-  - DOMAIN-SUFFIX,fbcdn.net,☁️ Proxy
-  - DOMAIN-SUFFIX,fb.com,☁️ Proxy
-  - DOMAIN-SUFFIX,instagram.com,☁️ Proxy
-  - DOMAIN-SUFFIX,whatsapp.com,☁️ Proxy
-  - DOMAIN-SUFFIX,messenger.com,☁️ Proxy
-
   # Myanmar IP
   - GEOIP,MM,DIRECT,no-resolve
 
