@@ -1,21 +1,47 @@
-# Government (gov.mm) Domains
-DOMAIN,idope.se
-DOMAIN-SUFFIX,gov.mm
-DOMAIN-SUFFIX,com.mm
-DOMAIN-SUFFIX,org.mm
-DOMAIN-SUFFIX,edu.mm
-DOMAIN-SUFFIX,net.mm
-# Banks
-DOMAIN-SUFFIX,ayabank.com
-DOMAIN-SUFFIX,kbzbank.com
-DOMAIN-SUFFIX,cbbank.com.mm
-DOMAIN-SUFFIX,agdbank.com
-DOMAIN-SUFFIX,mabbank.com
-DOMAIN-SUFFIX,yomabank.com
-DOMAIN-SUFFIX,wavemoney.com.mm  
-DOMAIN-SUFFIX,truemoney.com.mm
-# Telecom Operators
-DOMAIN-SUFFIX,mpt.com.mm
-DOMAIN-SUFFIX,telenor.com.mm
-DOMAIN-SUFFIX,ooredoo.com.mm
-DOMAIN-SUFFIX,mytel.com.mm
+rules:
+  # Facebook Related (Proxy)
+  - DOMAIN-KEYWORD,facebook,☁️ Proxy
+  - DOMAIN-KEYWORD,fb,☁️ Proxy
+  - DOMAIN-SUFFIX,facebook.com,☁️ Proxy
+  - DOMAIN-SUFFIX,fbcdn.net,☁️ Proxy
+  - DOMAIN-SUFFIX,fb.com,☁️ Proxy
+  - DOMAIN-SUFFIX,instagram.com,☁️ Proxy
+  - DOMAIN-SUFFIX,whatsapp.com,☁️ Proxy
+  - DOMAIN-SUFFIX,messenger.com,☁️ Proxy
+
+  # Myanmar IP
+  - GEOIP,MM,DIRECT,no-resolve
+
+  # Myanmar domains
+  - DOMAIN-SUFFIX,gov.mm,DIRECT
+  - DOMAIN-SUFFIX,com.mm,DIRECT
+  - DOMAIN-SUFFIX,org.mm,DIRECT
+  - DOMAIN-SUFFIX,edu.mm,DIRECT
+  - DOMAIN-SUFFIX,net.mm,DIRECT
+  - DOMAIN-SUFFIX,ayabank.com,DIRECT
+  - DOMAIN-SUFFIX,kbzbank.com,DIRECT
+  - DOMAIN-SUFFIX,cbbank.com.mm,DIRECT
+  - DOMAIN-SUFFIX,agdbank.com,DIRECT
+  - DOMAIN-SUFFIX,mabbank.com,DIRECT
+  - DOMAIN-SUFFIX,yomabank.com,DIRECT
+  - DOMAIN-SUFFIX,wavemoney.com.mm,DIRECT
+  - DOMAIN-SUFFIX,truemoney.com.mm,DIRECT
+  - DOMAIN-SUFFIX,mpt.com.mm,DIRECT
+  - DOMAIN-SUFFIX,telenor.com.mm,DIRECT
+  - DOMAIN-SUFFIX,ooredoo.com.mm,DIRECT
+  - DOMAIN-SUFFIX,mytel.com.mm,DIRECT
+
+  # Myanmar Banking & Payment Apps
+  - PROCESS-NAME,network.kalock.myanmar2d,DIRECT
+  - PROCESS-NAME,com.kbzbank.kpaycustomer,DIRECT
+  - PROCESS-NAME,com.ayaplus.subscriber,DIRECT
+  - PROCESS-NAME,com.ofss.digx.mab,DIRECT
+  - PROCESS-NAME,mm.com.wavemoney.wavepay,DIRECT
+  - PROCESS-NAME,com.ascend.money.rewards.app.mm,DIRECT
+  - PROCESS-NAME,com.com.jits.mbanking.aya,DIRECT
+
+  # Myanmar Telecom Apps
+  - PROCESS-NAME,com.ooredoo.selfcare,DIRECT
+  - PROCESS-NAME,com.mytel.myid,DIRECT
+  - PROCESS-NAME,mm.com.mptvas,DIRECT
+  - PROCESS-NAME,mm.com.atom.store,DIRECT
